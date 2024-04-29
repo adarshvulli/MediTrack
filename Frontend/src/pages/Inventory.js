@@ -68,7 +68,7 @@ function Inventory() {
   // Delete item
   const deleteItem = (id) => {
     console.log("Product ID: ", id);
-    console.log(`https://meditrack-4w9w.onrender.com/api/product/delete/${id}`);
+    //console.log(`https://meditrack-4w9w.onrender.com/api/product/delete/${id}`);
     fetch(`https://meditrack-4w9w.onrender.com/api/product/delete/${id}`)
       .then((response) => response.json())
       .then((data) => {
